@@ -8,7 +8,7 @@ export default [
       breadcrumbItems: [
         // {
         //   text: '图书',
-        //   to: { name: 'Book' }
+        //   to: '#/book'
         // },
         {
           text: '图书',

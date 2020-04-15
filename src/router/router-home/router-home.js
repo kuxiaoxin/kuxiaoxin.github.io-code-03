@@ -8,7 +8,7 @@ export default [
       breadcrumbItems: [
         // {
         //   text: '首页',
-        //   to: { name: 'Home' }
+        //   to: '#/'
         // },
         {
           text: '首页',

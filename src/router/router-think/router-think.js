@@ -8,7 +8,7 @@ export default [
       breadcrumbItems: [
         // {
         //   text: '锦囊',
-        //   to: { name: 'Think' }
+        //   to: '#/think'
         // },
         {
           text: '锦囊',

@@ -1,6 +1,9 @@
 <template>
-<!--  <b-breadcrumb style="background: white" :items="this.$route.meta.breadcrumbItems"></b-breadcrumb>-->
-  <div>Hello</div>
+  <Breadcrumb>
+    <template v-for="(item, index) in this.$route.meta.breadcrumbItems">
+      <BreadcrumbItem :key="index" :to="item.active?item.to:''">{{item.text}}</BreadcrumbItem>
+    </template>
+  </Breadcrumb>
 </template>
 
 <script>
