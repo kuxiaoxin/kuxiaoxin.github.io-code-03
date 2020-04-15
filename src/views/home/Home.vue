@@ -12,18 +12,31 @@
         <h3>古今多少事，都付笑谈中。</h3>
       </div>
     </div>
-    <empty-div title="首页" :showText="false"></empty-div>
+    <Row style="margin-top: 32px" :gutter="16">
+      <i-col span="6">
+        <special-card></special-card>
+      </i-col>
+      <i-col span="6">
+        <special-card></special-card>
+      </i-col>
+      <i-col span="6">
+        <special-card></special-card>
+      </i-col>
+      <i-col span="6">
+        <special-card></special-card>
+      </i-col>
+    </Row>
   </div>
 </template>
 
 <script>
-  import EmptyDiv from "@/components/EmptyDiv"
+  import SpecialCard from "@/components/SpecialCard"
   import { WOW } from "wowjs";
 
   export default {
     name: 'Home',
     components: {
-      EmptyDiv
+      SpecialCard
     },
     mounted() {
       let wow = new WOW({
