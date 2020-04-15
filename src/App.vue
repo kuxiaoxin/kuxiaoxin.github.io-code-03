@@ -18,6 +18,7 @@
     <div style="width: 1080px;margin: 0 auto">
       <router-view/>
     </div>
+    <BackTop></BackTop>
   </div>
 </template>
 
