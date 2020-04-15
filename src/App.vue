@@ -43,8 +43,16 @@
           <i-col span="12">
             <h2 style="margin-bottom: 16px;">网站声明</h2>
             <p>本站作品均由作者自主制作和分享，仅用于交流学习目的，如果您发现网站上有侵犯您的知识产权的作品，请与我们取得联系，我们会及时删除。</p>
-            <div style="text-align: right;margin-top: 48px;">
-              <img width="100" height="100" src="./assets/image/home/qrCode.png" alt="二维码">
+            <div style="margin-top: 48px;display: flex;">
+              <div style="flex-grow: 1;flex-shrink: 0;margin-right: 16px;">
+                <h2 style="margin-bottom: 16px;">源码地址</h2>
+                <a class="bottom-col-item" href="https://github.com/kuxiaoxin/kuxiaoxin.github.io-code-03" target="_blank">
+                  <Icon type="logo-github" />
+                  <span style="margin-left: 4px">Github公开仓库</span>
+                </a>
+              </div>
+              <img style="flex-grow: 0;flex-shrink: 0;margin-right: 16px;" width="100" height="100" src="./assets/image/home/qrCode.png" alt="二维码">
+              <img style="flex-grow: 0;flex-shrink: 0;" width="100" height="100" src="./assets/image/home/qrCode.png" alt="二维码">
             </div>
           </i-col>
         </Row>
