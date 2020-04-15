@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <div v-for="(item, index) in routeList" :key="index">
-        <router-link :to="item.path">{{item.name}}</router-link>
-      </div>
+      <template v-for="(item, index) in routeList">
+        <router-link :to="item.path" :key="index">{{item.name}}</router-link>
+      </template>
     </div>
     <router-view/>
   </div>
@@ -48,7 +48,7 @@
 <style>
 
   #nav a {
-    color: white;
+    color: #ccc;
     text-align: center;
   }
 
