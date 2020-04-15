@@ -3,7 +3,7 @@
     <div class="top-image-box">
       <img class="top-image" src="../../assets/image/home/nav-background.jpg" alt="首页图片">
       <div class="top-image-mask"></div>
-      <div class="poetry-box">
+      <div class="poetry-box wow slideInUp" data-wow-duration="1s">
         <h2>《临江仙》</h2>
         <i class="poetry-box-i"></i>
         <h3>滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。</h3>
@@ -18,11 +18,21 @@
 
 <script>
   import EmptyDiv from "@/components/EmptyDiv"
+  import { WOW } from "wowjs";
 
   export default {
     name: 'Home',
     components: {
       EmptyDiv
+    },
+    mounted() {
+      let wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 0,
+        mobile: true
+      })
+      wow.init();
     }
   }
 </script>
