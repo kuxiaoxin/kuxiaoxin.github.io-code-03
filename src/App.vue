@@ -6,7 +6,12 @@
         <div class="nav-title">三国趣谈</div>
         <div class="nav-deps">从三国中寻求出为人处事之道!</div>
         <div id="nav" v-for="(item, index) in routeList" :key="index" class="nav-item">
-          <router-link :to="item.path">{{item.name}}</router-link>
+          <template v-if="item.target==='_self'">
+            <router-link :to="item.path" :target="item.target">{{item.name}}</router-link>
+          </template>
+          <template v-else-if="item.target==='_blank'">
+            <a :href="item.path" :target="item.target">{{item.name}}</a>
+          </template>
         </div>
       </div>
     </div>
@@ -24,27 +29,34 @@
         routeList: [
           {
             path: '/',
-            name: '首页'
+            name: '首页',
+            target: '_self'
           },
           {
             path: '/hero',
-            name: '论英雄'
+            name: '论英雄',
+            target: '_self'
           },
           {
             path: '/think',
-            name: '锦囊'
+            name: '锦囊',
+            target: '_self'
           },
           {
             path: '/trickery',
-            name: '权谋'
+            name: '权谋',
+            target: '_self'
           },
           {
-            path: '/book',
-            name: '《三国演义》'
+            // path: '/book',
+            path: 'http://www.purepen.com/sgyy/',
+            name: '《三国演义》',
+            target: '_blank'
           },
           {
             path: '/about',
-            name: '关于'
+            name: '关于',
+            target: '_self'
           }
         ]
       }
