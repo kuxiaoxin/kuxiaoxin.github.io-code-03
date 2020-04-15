@@ -4,19 +4,16 @@
       <img class="top-image" src="../../assets/image/home/nav-background.jpg" alt="首页图片">
       <div class="top-image-mask"></div>
     </div>
-    <breadcrumb-route></breadcrumb-route>
     <empty-div title="首页"></empty-div>
   </div>
 </template>
 
 <script>
-  import BreadcrumbRoute from "@/components/BreadcrumbRoute"
   import EmptyDiv from "@/components/EmptyDiv"
 
   export default {
     name: 'Home',
     components: {
-      BreadcrumbRoute,
       EmptyDiv
     }
   }
