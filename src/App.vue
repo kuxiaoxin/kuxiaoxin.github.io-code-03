@@ -19,10 +19,44 @@
       <router-view/>
     </div>
     <BackTop></BackTop>
+    <div style="background: #333">
+      <div class="bottom-box">
+        <Row :gutter="32">
+          <i-col span="6">
+            <h2 style="margin-bottom: 16px;">友情链接</h2>
+            <a class="bottom-col-item" href="https://www.ageeye.cn/" target="_blank">发现中国</a>
+            <a class="bottom-col-item" href="http://www.ltfc.net/" target="_blank">中华珍宝馆</a>
+            <a class="bottom-col-item" href="https://www.allhistory.com/" target="_blank">全历史</a>
+            <a class="bottom-col-item" href="http://www.lsdag.com" target="_blank">中国第一历史档案馆</a>
+            <a class="bottom-col-item" href="http://www.jianglishi.cn/" target="_blank">中国历史</a>
+            <a class="bottom-col-item" href="http://www.wenbao.net/" target="_blank">中国历史文化遗产保护网</a>
+            <a class="bottom-col-item" href="http://www.hxlsw.com/" target="_blank">中国古代历史</a>
+          </i-col>
+          <i-col span="6">
+            <a style="margin-top: 47px" class="bottom-col-item" href="http://www.lishichunqiu.com/" target="_blank">历史春秋网</a>
+            <a class="bottom-col-item" href="http://www.lishiweb.com/" target="_blank">论剑历史</a>
+            <a class="bottom-col-item" href="http://www.qulishi.com/" target="_blank">趣历史</a>
+            <a class="bottom-col-item" href="http://www.mh.sinica.edu.tw/index.aspx" target="_blank">中央研究院近代史研究所</a>
+            <a class="bottom-col-item" href="http://www.guoxue123.com/index.htm" target="_blank">国学导航</a>
+            <a class="bottom-col-item" href="https://www.digroc.com/CNH/index.aspx" target="_blank">民国近代史</a>
+          </i-col>
+          <i-col span="12">
+            <h2 style="margin-bottom: 16px;">网站声明</h2>
+            <p>本站作品均由作者自主制作和分享，仅用于交流学习目的，如果您发现网站上有侵犯您的知识产权的作品，请与我们取得联系，我们会及时删除。</p>
+            <div style="text-align: right;margin-top: 48px;">
+              <img width="100" height="100" src="./assets/image/home/qrCode.png" alt="二维码">
+            </div>
+          </i-col>
+        </Row>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+  import $ from 'jquery'
+  if ($(window).width() < 1080) alert('分辨率大于1080的设备上查看该网站体验更佳。')
+
   export default {
     name: 'App',
     data() {
@@ -69,7 +103,7 @@
   .nav {
     border-bottom: 1px solid rgba(30, 35, 42, .06);
     transition: background .6s ease-in-out, padding .6s ease-in-out;
-    box-shadow: 0 1px 3px 0 rgba(0,34,77,.05);
+    box-shadow: 0 1px 3px 0 rgba(0, 34, 77, .05);
     margin-bottom: 2px;
   }
 
@@ -118,6 +152,34 @@
   }
 
   #nav a.router-link-exact-active {
+    color: #d91419;
+  }
+
+  .bottom-box {
+    width: 1080px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 48px 0;
+    background: #333;
+  }
+
+  .bottom-friend-box {
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+
+  .bottom-contact-box {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  .bottom-col-item {
+    margin-bottom: 8px;
+    color: #fff;
+    display: block;
+  }
+
+  .bottom-col-item:hover {
     color: #d91419;
   }
 </style>

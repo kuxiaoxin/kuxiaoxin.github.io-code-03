@@ -12,7 +12,7 @@
         <h3>古今多少事，都付笑谈中。</h3>
       </div>
     </div>
-    <empty-div title="首页"></empty-div>
+    <empty-div title="首页" :showText="false"></empty-div>
   </div>
 </template>
 
@@ -61,7 +61,7 @@
 
   .poetry-box {
     position: absolute;
-    color: white;
+    color: #fff;
     bottom: 0;
     left: 0;
     width: 100%;
