@@ -1,11 +1,13 @@
 <template>
   <div id="app">
-    <div class="nav-box">
-      <img src="./assets/image/logo/logo.png" class="nav-image" alt="">
-      <div class="nav-title">三国趣谈</div>
-      <div class="nav-deps">从三国中寻求出为人处事之道!</div>
-      <div id="nav" v-for="(item, index) in routeList" :key="index" class="nav-item">
-        <router-link :to="item.path">{{item.name}}</router-link>
+    <div class="nav">
+      <div class="nav-box">
+        <img src="./assets/image/logo/logo.png" class="nav-image" alt="">
+        <div class="nav-title">三国趣谈</div>
+        <div class="nav-deps">从三国中寻求出为人处事之道!</div>
+        <div id="nav" v-for="(item, index) in routeList" :key="index" class="nav-item">
+          <router-link :to="item.path">{{item.name}}</router-link>
+        </div>
       </div>
     </div>
     <div style="width: 1080px;margin: 0 auto">
@@ -51,6 +53,13 @@
 </script>
 
 <style scoped>
+  .nav {
+    border-bottom: 1px solid rgba(30, 35, 42, .06);
+    transition: background .6s ease-in-out, padding .6s ease-in-out;
+    box-shadow: 0 1px 3px 0 rgba(0,34,77,.05);
+    margin-bottom: 2px;
+  }
+
   .nav-box {
     width: 1080px;
     margin: 0 auto;
