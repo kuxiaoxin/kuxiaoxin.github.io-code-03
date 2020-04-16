@@ -20,6 +20,7 @@
     </div>
     <BackTop></BackTop>
     <div style="background: #333;margin-top: 32px;">
+      <div class="bottom-background"></div>
       <div class="bottom-box">
         <Row :gutter="32">
           <i-col span="6">
@@ -46,23 +47,28 @@
             <div style="margin-top: 48px;display: flex;">
               <div style="flex-grow: 1;flex-shrink: 0;margin-right: 16px;">
                 <h2 style="margin-bottom: 16px;">源码地址</h2>
-                <a class="bottom-col-item" href="https://github.com/kuxiaoxin/kuxiaoxin.github.io-code-03" target="_blank">
-                  <Icon type="logo-github" />
+                <a class="bottom-col-item" href="https://github.com/kuxiaoxin/kuxiaoxin.github.io-code-03"
+                   target="_blank">
+                  <Icon type="logo-github"/>
                   <span style="margin-left: 4px">Github公开仓库</span>
                 </a>
               </div>
-              <img style="flex-grow: 0;flex-shrink: 0;margin-right: 16px;" width="100" height="100" src="./assets/image/home/qrCode.png" alt="二维码">
-              <img style="flex-grow: 0;flex-shrink: 0;" width="100" height="100" src="./assets/image/home/qrCode.png" alt="二维码">
+              <img style="flex-grow: 0;flex-shrink: 0;margin-right: 16px;" width="100" height="100"
+                   src="./assets/image/home/qrCode.png" alt="二维码">
+              <img style="flex-grow: 0;flex-shrink: 0;" width="100" height="100" src="./assets/image/home/qrCode.png"
+                   alt="二维码">
             </div>
           </i-col>
         </Row>
       </div>
+      <div class="bottom-background"></div>
     </div>
   </div>
 </template>
 
 <script>
   import $ from 'jquery'
+
   if ($(window).width() < 1080) alert('分辨率大于1080的设备上查看该网站体验更佳。')
 
   export default {
@@ -189,5 +195,13 @@
 
   .bottom-col-item:hover {
     color: #d91419;
+  }
+
+  .bottom-background {
+    height: 30px;
+    width: 100%;
+    background: url("../src/assets/image/home/bottom-item-min-1.svg") repeat-x center;
+    background-size: 30px;
+    margin: 0 auto;
   }
 </style>
