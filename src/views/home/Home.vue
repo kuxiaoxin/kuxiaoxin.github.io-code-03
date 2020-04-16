@@ -12,17 +12,14 @@
         <h3>古今多少事，都付笑谈中。</h3>
       </div>
     </div>
-    <Row style="margin-top: 32px" :gutter="16">
-      <i-col span="6">
+    <Row style="margin-top: 64px" :gutter="48">
+      <i-col span="8">
         <special-card></special-card>
       </i-col>
-      <i-col span="6">
+      <i-col span="8">
         <special-card></special-card>
       </i-col>
-      <i-col span="6">
-        <special-card></special-card>
-      </i-col>
-      <i-col span="6">
+      <i-col span="8">
         <special-card></special-card>
       </i-col>
     </Row>

@@ -1,13 +1,12 @@
 <template>
-  <div class="card-body">
-    <!--<img style="width: 256px;height: 256px;" src="../assets/image/specialCard/sword.png" alt="">-->
-    <div class="card-body-image-box">
-      <img class="card-body-image" src="http://www.lishichunqiu.com/zt/sgssmz/sgssmz.jpg"
-           alt="">
+  <div class="card-box">
+    <div class="card-type">类别</div>
+    <div class="card-image-box">
+      <img class="card-image" src="http://www.lishichunqiu.com/zt/sgssmz/sgssmz.jpg" alt="图片">
     </div>
-    <div style="padding: 16px;border-top: 1px solid #e8eaec;">
-      <div class="card-text">历数三国时期的少数民族</div>
-    </div>
+    <div><Icon type="md-time" />2020-04-16</div>
+    <div>历数三国时期的少数民族</div>
+    <div>历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族</div>
   </div>
 </template>
 
@@ -18,42 +17,44 @@
 </script>
 
 <style scoped>
-  .card-body {
-    border: 1px solid #dcdee2;
+  .card-box {
     background: #fff;
-    border-radius: 4px;
-    font-size: 14px;
+    border-radius: 15px;
     position: relative;
+    width: 100%;
+    box-shadow: 0 0.25rem 1rem rgba(48, 55, 66, .15);
     transition: all .5s ease-in-out;
+    text-align: center;
   }
 
-  .card-body-image-box {
-    padding: 8px 8px 3px;
-  }
-
-  .card-body-image {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    width: 240px;
-    height: 240px;
-  }
-
-  .card-body:hover {
+  .card-box:hover {
     box-shadow: 0 0 10px #888888;
   }
 
-  .card-body:hover .card-text {
+  .card-type {
+    color: #fff;
+    border-radius: 16px;
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    margin-left: -48px;
+    height: 32px;
+    background: #ed4014;
+    width: 112px;
+    line-height: 32px;
     font-size: 17px;
+    font-weight: bold;
   }
 
-  .card-text {
-    font-size: 15px;
-    transition: all .3s ease-in-out;
-    font-weight: bold;
+  .card-image-box {
+    height: 225px;
     width: 100%;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     overflow: hidden;
+  }
+
+  .card-image {
+    width: 100%;
   }
 </style>

@@ -15,11 +15,11 @@
         </div>
       </div>
     </div>
-    <div style="width: 1080px;margin: 0 auto">
+    <div style="width: 1200px;margin: 0 auto">
       <router-view/>
     </div>
     <BackTop></BackTop>
-    <div style="background: #333;margin-top: 32px;">
+    <div style="background: #333;margin-top: 64px;">
       <div class="bottom-background"></div>
       <div class="bottom-box">
         <Row :gutter="32">
@@ -69,7 +69,7 @@
 <script>
   import $ from 'jquery'
 
-  if ($(window).width() < 1080) alert('分辨率大于1080的设备上查看该网站体验更佳。')
+  if ($(window).width() < 1200) alert('分辨率大于1200的设备上查看该网站体验更佳。')
 
   export default {
     name: 'App',
@@ -127,7 +127,8 @@
   }
 
   .nav-box {
-    width: 1080px;
+    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     height: 50px;
     padding: 5px 0;
@@ -171,11 +172,11 @@
   }
 
   #nav a.router-link-exact-active {
-    color: #d91419;
+    color: #ed4014;
   }
 
   .bottom-box {
-    width: 1080px;
+    width: 1200px;
     margin: 0 auto;
     color: #fff;
     padding: 48px 0;
@@ -199,7 +200,7 @@
   }
 
   .bottom-col-item:hover {
-    color: #d91419;
+    color: #ed4014;
   }
 
   .bottom-background {

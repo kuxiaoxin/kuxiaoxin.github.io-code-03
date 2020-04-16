@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import 'animate.css'
 import 'wowjs/css/libs/animate.css'
-import './assets/css/tencent.css'
+import './assets/css/currency.css'
 import ViewUI from 'view-design'
 import 'view-design/dist/styles/iview.css'
 
