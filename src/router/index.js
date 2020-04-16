@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 import routerHome from '@/router/router-home/router-home'
+import routerInteresting from '@/router/router-interesting/router-interesting'
 import routerHero from '@/router/router-hero/router-hero'
 import routerThink from '@/router/router-think/router-think'
 import routerTrickery from '@/router/router-trickery/router-trickery'
@@ -12,6 +13,7 @@ import routerAbout from '@/router/router-about/router-about'
 
 const routes = [
   ...routerHome,
+  ...routerInteresting,
   ...routerHero,
   ...routerThink,
   ...routerTrickery,

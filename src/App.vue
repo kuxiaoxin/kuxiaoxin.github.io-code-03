@@ -82,6 +82,11 @@
             target: '_self'
           },
           {
+            path: '/interesting',
+            name: '趣谈',
+            target: '_self'
+          },
+          {
             path: '/hero',
             name: '论英雄',
             target: '_self'
