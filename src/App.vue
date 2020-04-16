@@ -46,7 +46,11 @@
             <p>本站作品均由作者自主制作和分享，仅用于交流学习目的，如果您发现网站上有侵犯您的知识产权的作品，请与我们取得联系，我们会及时删除。</p>
             <div style="margin-top: 48px;display: flex;">
               <div style="flex-grow: 1;flex-shrink: 0;margin-right: 16px;">
-                <h2 style="margin-bottom: 16px;">源码地址</h2>
+                <h2 style="margin-bottom: 16px;">联系我们</h2>
+                <div>
+                  <Icon type="md-mail" />
+                  <span style="margin-left: 4px">1302139012@qq.com</span>
+                </div>
                 <a class="bottom-col-item" href="https://github.com/kuxiaoxin/kuxiaoxin.github.io-code-03"
                    target="_blank">
                   <Icon type="logo-github"/>

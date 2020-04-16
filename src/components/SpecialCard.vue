@@ -4,7 +4,9 @@
     <div class="card-image-box">
       <img class="card-image" src="http://www.lishichunqiu.com/zt/sgssmz/sgssmz.jpg" alt="图片">
     </div>
-    <div><Icon type="md-time" />2020-04-16</div>
+    <div class="">
+      <Icon type="md-time" />2020-04-16
+    </div>
     <div>历数三国时期的少数民族</div>
     <div>历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族</div>
   </div>
@@ -57,4 +59,6 @@
   .card-image {
     width: 100%;
   }
+
+
 </style>
