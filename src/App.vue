@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <div style="width: 1200px;margin: 0 auto">
+    <div style="width: 1200px;margin: 52px auto 0">
       <router-view/>
     </div>
     <BackTop></BackTop>
@@ -48,7 +48,7 @@
               <div style="flex-grow: 1;flex-shrink: 0;margin-right: 16px;">
                 <h2 style="margin-bottom: 16px;">联系我们</h2>
                 <div>
-                  <Icon type="md-mail" />
+                  <Icon type="md-mail"/>
                   <span style="margin-left: 4px">1302139012@qq.com</span>
                 </div>
                 <a class="bottom-col-item" href="https://github.com/kuxiaoxin/kuxiaoxin.github.io-code-03"
@@ -123,14 +123,24 @@
 </script>
 
 <style scoped>
+  #app {
+    position: relative;
+  }
+
   .nav {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
     border-bottom: 1px solid rgba(30, 35, 42, .06);
     transition: background .6s ease-in-out, padding .6s ease-in-out;
     box-shadow: 0 1px 3px 0 rgba(0, 34, 77, .05);
-    margin-bottom: 2px;
+    background: white;
   }
 
   .nav-box {
+    background: white;
     width: 1200px;
     max-width: 1200px;
     margin: 0 auto;

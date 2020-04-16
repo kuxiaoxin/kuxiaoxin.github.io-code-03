@@ -12,15 +12,39 @@
         <h3>古今多少事，都付笑谈中。</h3>
       </div>
     </div>
-    <Row style="margin-top: 64px" :gutter="48">
+    <Row style="margin-top: 64px" :gutter="48" type="flex" justify="center" align="middle">
       <i-col span="8">
-        <special-card></special-card>
+        <special-card style="margin-bottom: 48px"
+                      type="趣谈"
+                      title="历数三国时期的少数民族"
+                      time="2020-04-16"
+                      describe="三国时期主要的异族势力有匈奴、乌桓、羌、氐、山越和南蛮。这些特殊的势力加入乱世的角逐，对三国格局起了微妙的影响作用。一个蛮族的实力要从其经济、政治基础、科技和武装上来衡量，都还不可能马上入主中原。"></special-card>
       </i-col>
       <i-col span="8">
-        <special-card></special-card>
+        <special-card style="margin-bottom: 48px"
+                      type="趣谈"
+                      title="历数三国时期的少数民族"
+                      time="2020-04-16"
+                      describe="哈哈哈哈"></special-card>
       </i-col>
       <i-col span="8">
-        <special-card></special-card>
+        <special-card style="margin-bottom: 48px"
+        ></special-card>
+      </i-col>
+      <i-col span="8">
+        <special-card style="margin-bottom: 48px"
+                      type="趣谈"
+                      title="历数三国时期的少数民族"
+                      time="2020-04-16"
+                      describe="哈哈哈哈"></special-card>
+      </i-col>
+      <i-col span="8">
+        <special-card style="margin-bottom: 48px"
+        ></special-card>
+      </i-col>
+      <i-col span="8">
+        <special-card style="margin-bottom: 48px"
+        ></special-card>
       </i-col>
     </Row>
   </div>
