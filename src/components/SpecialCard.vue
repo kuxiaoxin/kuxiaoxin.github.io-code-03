@@ -4,11 +4,14 @@
     <div class="card-image-box">
       <img class="card-image" src="http://www.lishichunqiu.com/zt/sgssmz/sgssmz.jpg" alt="图片">
     </div>
-    <div class="">
-      <Icon type="md-time" />2020-04-16
+    <h3 class="card-title">历数三国时期的少数民族</h3>
+    <div class="card-time">
+      <Icon type="md-time"/>
+      <span style="margin-left: 4px">2020-04-16</span>
     </div>
-    <div>历数三国时期的少数民族</div>
-    <div>历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族</div>
+    <div style="padding: 0 32px 16px">
+      <div class="card-describe">历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族历数三国时期的少数民族</div>
+    </div>
   </div>
 </template>
 
@@ -20,6 +23,7 @@
 
 <style scoped>
   .card-box {
+    font-size: 16px;
     background: #fff;
     border-radius: 15px;
     position: relative;
@@ -58,6 +62,25 @@
 
   .card-image {
     width: 100%;
+  }
+
+  .card-time {
+    padding: 8px 16px 8px;
+  }
+
+  .card-title {
+    padding: 8px 16px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .card-describe {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
   }
 
 
