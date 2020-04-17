@@ -2,8 +2,12 @@
   <div id="app">
     <div class="nav">
       <div class="nav-box">
-        <img src="./assets/image/logo/logo.png" class="nav-image" alt="">
-        <div class="nav-title">三国趣谈</div>
+        <a style="color: #333;display: block;" href="/">
+          <img src="./assets/image/logo/logo.png" class="nav-image" alt="">
+        </a>
+        <a style="color: #333;display: block;" href="/">
+          <div class="nav-title">三国趣谈</div>
+        </a>
         <div class="nav-deps">从三国中寻求出为人处事之道!</div>
         <div id="nav" v-for="(item, index) in routeList" :key="index" class="nav-item">
           <template v-if="item.target==='_self'">
@@ -156,7 +160,7 @@
     flex-shrink: 0;
     height: 40px;
     width: 40px;
-    margin-right: 10px;
+    margin-right: 4px;
   }
 
   .nav-title {
