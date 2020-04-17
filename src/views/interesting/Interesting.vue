@@ -49,16 +49,18 @@
           </template>
         </div>
         <div style="text-align: center;margin-top: 16px;">
-          <Page :total="200" size="small" />
+          <Page :total="200" size="small"/>
         </div>
       </i-col>
       <i-col span="6">
-        <div>
-          <region-bar title="排行板"></region-bar>
-        </div>
-        <div style="margin-top: 36px;">
-          <region-bar title="推荐"></region-bar>
-        </div>
+        <Affix :offset-top="92">
+          <div>
+            <region-bar title="排行板"></region-bar>
+          </div>
+          <div style="margin-top: 36px;">
+            <region-bar title="推荐"></region-bar>
+          </div>
+        </Affix>
       </i-col>
     </Row>
   </div>
