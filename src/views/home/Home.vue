@@ -12,7 +12,8 @@
         <h3>古今多少事，都付笑谈中。</h3>
       </div>
     </div>
-    <Row style="margin-top: 64px" :gutter="48" type="flex" justify="center" align="middle">
+    <title-bar></title-bar>
+    <Row style="margin-top: 16px" :gutter="48" type="flex" justify="center" align="middle">
       <i-col span="8">
         <special-card style="margin-bottom: 48px"
                       type="趣谈"
@@ -52,12 +53,14 @@
 
 <script>
   import SpecialCard from "@/components/SpecialCard"
+  import TitleBar from "@/components/TitleBar"
   import { WOW } from "wowjs";
 
   export default {
     name: 'Home',
     components: {
-      SpecialCard
+      SpecialCard,
+      TitleBar
     },
     mounted() {
       let wow = new WOW({
