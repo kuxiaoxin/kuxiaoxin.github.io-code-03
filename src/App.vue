@@ -166,7 +166,7 @@
   .nav-title {
     flex-grow: 0;
     flex-shrink: 0;
-    font-size: larger;
+    font-size: 26px;
     font-weight: bold;
     margin-right: 10px;
   }
