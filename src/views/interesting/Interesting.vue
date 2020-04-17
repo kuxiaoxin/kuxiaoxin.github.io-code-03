@@ -44,7 +44,9 @@
           </div>
         </div>
         <div>
-          Item
+          <template v-for="i in 10">
+            <article-card :key="i" style="margin-top: 16px;"></article-card>
+          </template>
         </div>
       </i-col>
       <i-col span="6">
@@ -62,16 +64,17 @@
 <script>
   import BreadcrumbRoute from "@/components/BreadcrumbRoute"
   import RegionBar from "@/components/RegionBar"
+  import ArticleCard from "@/components/ArticleCard"
 
   export default {
     name: "Interesting",
     components: {
       BreadcrumbRoute,
-      RegionBar
+      RegionBar,
+      ArticleCard
     },
     data() {
-      return {
-      }
+      return {}
     }
   }
 </script>
