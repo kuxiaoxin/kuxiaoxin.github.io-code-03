@@ -17,6 +17,7 @@
 
 <script>
   export default {
+    // 首页特殊卡片
     name: "SpecialCard",
     props: {
       type: {

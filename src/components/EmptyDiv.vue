@@ -26,6 +26,7 @@
 
 <script>
   export default {
+    // 空布局
     name: "EmptyDiv",
     props: {
       title: {

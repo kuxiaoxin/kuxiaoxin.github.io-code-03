@@ -16,6 +16,7 @@
 
 <script>
   export default {
+    // 双龙头标题
     name: "TitleBar",
     props: {
       title: {

@@ -14,6 +14,7 @@
 
 <script>
   export default {
+    // 当前位置（面报屑）
     name: "BreadcrumbRoute",
     props: {
       bottomBorder: {
