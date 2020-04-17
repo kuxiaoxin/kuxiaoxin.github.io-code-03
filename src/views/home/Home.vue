@@ -12,7 +12,9 @@
         <h3>古今多少事，都付笑谈中。</h3>
       </div>
     </div>
-    <title-bar></title-bar>
+    <title-bar title="最近文章">
+      <img style="height: 48px;margin: -10px 0;" src="../../assets/image/titleBar/text/recentArticles.png" alt="文字图片">
+    </title-bar>
     <Row style="margin-top: 16px" :gutter="48" type="flex" justify="center" align="middle">
       <i-col span="8">
         <special-card style="margin-bottom: 48px"

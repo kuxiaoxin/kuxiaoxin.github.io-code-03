@@ -1,25 +1,35 @@
 <template>
   <div class="title-box">
-    <img class="title-image" src="../assets/image/titleBar/title-bar-left.png" alt="标题图">
-    <div class="title-text-box">
-      <div class="title-text">最近文章</div>
-      <i class="title-i"></i>
-      <img class="title-text-image" src="../assets/image/titleBar/text/recentArticles.png" alt="文字图片">
+    <div class="title-image-box">
+      <img class="title-image" src="../assets/image/titleBar/title-bar-left.png" alt="标题图">
     </div>
-    <img class="title-image" src="../assets/image/titleBar/title-bar-right.png" alt="标题图">
+    <div class="title-text-box">
+      <div class="title-text">{{title}}</div>
+      <i class="title-i"></i>
+      <slot></slot>
+    </div>
+    <div class="title-image-box">
+      <img class="title-image" src="../assets/image/titleBar/title-bar-right.png" alt="标题图">
+    </div>
   </div>
 </template>
 
 <script>
   export default {
-    name: "TitleBar"
+    name: "TitleBar",
+    props: {
+      title: {
+        type: String,
+        default: '文章标题'
+      }
+    }
   }
 </script>
 
 <style scoped>
   .title-box {
     text-align: center;
-    margin: 96px 0;
+    margin: 96px 0 64px;
     display: flex;
     justify-content: center;
   }
@@ -43,9 +53,11 @@
     display: block;
   }
 
-  .title-text-image {
-    height: 48px;
-    margin: -10px 0;
+  .title-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
   }
 
   .title-image {
