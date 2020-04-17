@@ -58,8 +58,8 @@
                 </a>
               </div>
               <img style="flex-grow: 0;flex-shrink: 0;margin-right: 16px;" width="100" height="100"
-                   src="./assets/image/home/qrCode.png" alt="二维码">
-              <img style="flex-grow: 0;flex-shrink: 0;" width="100" height="100" src="./assets/image/home/qrCode.png"
+                   src="assets/image/home/qr-code.png" alt="二维码">
+              <img style="flex-grow: 0;flex-shrink: 0;" width="100" height="100" src="assets/image/home/qr-code.png"
                    alt="二维码">
             </div>
           </i-col>
