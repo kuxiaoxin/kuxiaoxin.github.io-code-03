@@ -19,7 +19,9 @@
       <div class="text-overflow">
         君主时代帝王死后，会依据他生前的所作所为给他一个定性类的称号，对于一些重要的大臣来说，也会得到这样的待遇，称之为谥号。这是一种盖棺论定，尤其对于大臣，能获得谥号表明位高权重或者是功劳大，所以，这是一种身后的荣耀。蜀汉国实际建国时间相对较晚还短，获得谥号的大臣只有六人，后来刘禅又追谥了几人，前后总共不过十几个人。赵云就是这几个被追谥的大臣之一。
       </div>
-      <i-button style="position: absolute;bottom: 0;left: 50%">阅读本文</i-button>
+      <!--<i-button style="position: absolute;bottom: 0;left: 50%">阅读本文</i-button>-->
+      <div class="read-btn">阅读本文</div>
+      <div class="read-btn-text">阅读本文</div>
     </div>
   </div>
 </template>
@@ -56,5 +58,33 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
+  }
+
+  .read-btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 6px;
+    background: url("../assets/image/articleCard/btn_background.png") no-repeat 80px -5px;
+    background-size: 65px;
+    opacity: 0.4;
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    user-select: none;
+  }
+
+  .read-btn-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px;
   }
 </style>
