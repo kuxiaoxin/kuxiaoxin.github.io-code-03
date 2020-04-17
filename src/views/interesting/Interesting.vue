@@ -56,14 +56,62 @@
         </div>
       </i-col>
       <i-col span="6">
-        <Affix :offset-top="92">
-          <div>
-            <region-bar title="排行板"></region-bar>
+        <!--<Affix :offset-top="92">-->
+        <div>
+          <region-bar title="排行板"></region-bar>
+          <div class="region-title">
+            <a href="#" style="color: #515a6e">
+              1.从威震华夏到败走麦城只需6个月，关羽失荆州不只是因为大意
+            </a>
           </div>
-          <div style="margin-top: 36px;">
-            <region-bar title="推荐"></region-bar>
+          <div class="region-title">
+            <a href="#" style="color: #515a6e">
+              2.三国真正的铁甲雄兵之一：西凉铁骑究竟有多少人？
+            </a>
           </div>
-        </Affix>
+          <div class="region-title">
+            <a href="#" style="color: #515a6e">
+              3.蜀汉刘备——中年肥肉男佛系创业的不甘与坚持
+            </a>
+          </div>
+          <div class="region-title">
+            <a href="#" style="color: #515a6e">
+              4.蜀汉刘备的巅峰之战——汉中争夺战全面回顾
+            </a>
+          </div>
+          <div class="region-title">
+            <a href="#" style="color: #515a6e">
+              5.刘备三国创业版图，成也关张，败也关张
+            </a>
+          </div>
+          <div class="region-title">
+            <a href="#" style="color: #515a6e">
+              6.鲜为人知的孙吴名将-贺齐的精彩故事
+            </a>
+          </div>
+        </div>
+        <div style="margin-top: 36px;">
+          <region-bar title="推荐" style="margin-bottom: 16px;"></region-bar>
+          <div class="recommend-box">
+            <img class="recommend-box-image" src="http://www.e3ol.com/topics/upfiles/2017/201781910928236.jpg" alt="">
+          </div>
+          <div class="recommend-box-text">
+            （转载）单骑定荆州：刘表年轻时比刘备还猛
+          </div>
+          <div class="recommend-box">
+            <img class="recommend-box-image" src="http://www.e3ol.com/topics/upfiles/2017/201781910928236.jpg" alt="">
+          </div>
+          <div class="recommend-box-text">
+            （转载）单骑定荆州：刘表年轻时比刘备还猛
+          </div>
+          <div class="recommend-box">
+            <img class="recommend-box-image" src="http://www.e3ol.com/topics/upfiles/2017/201781910928236.jpg" alt="">
+          </div>
+          <div class="recommend-box-text">
+            （转载）单骑定荆州：刘表年轻时比刘备还猛
+          </div>
+        </div>
+        <!--</Affix>-->
       </i-col>
     </Row>
   </div>
@@ -109,5 +157,32 @@
     flex-grow: 1;
     flex-shrink: 0;
     width: 0;
+  }
+
+  .recommend-box {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+
+  .recommend-box-image {
+    width: 100%;
+
+  }
+
+  .recommend-box-text {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 8px;
+  }
+
+  .region-title {
+    padding: 8px;
+    line-height: 24px;
+    font-size: 18px;
   }
 </style>

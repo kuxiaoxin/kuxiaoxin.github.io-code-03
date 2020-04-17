@@ -23,7 +23,7 @@
       <router-view/>
     </div>
     <BackTop></BackTop>
-    <div style="background: #333;margin-top: 64px;">
+    <div style="background: #333;margin-top: 64px;position: relative;z-index: 101">
       <div class="bottom-background"></div>
       <div class="bottom-box">
         <Row :gutter="32">
