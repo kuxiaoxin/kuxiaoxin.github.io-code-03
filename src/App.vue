@@ -44,6 +44,7 @@
             <a class="bottom-col-item" href="http://www.mh.sinica.edu.tw/index.aspx" target="_blank">中央研究院近代史研究所</a>
             <a class="bottom-col-item" href="http://www.guoxue123.com/index.htm" target="_blank">国学导航</a>
             <a class="bottom-col-item" href="https://www.digroc.com/CNH/index.aspx" target="_blank">民国近代史</a>
+            <a class="bottom-col-item" href="http://www.e3ol.com/" target="_blank">三国在线</a>
           </i-col>
           <i-col span="12">
             <h2 style="margin-bottom: 16px;">网站声明</h2>
