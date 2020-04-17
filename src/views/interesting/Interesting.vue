@@ -43,12 +43,15 @@
             </div>
           </div>
         </div>
-        <div>
+        <div style="padding-top: 16px;">
           <template v-for="i in 10">
-            <article-card :key="i" style="margin-top: 16px;"></article-card>
+            <div :key="i">
+              <article-card></article-card>
+              <Divider/>
+            </div>
           </template>
         </div>
-        <div style="text-align: center;margin-top: 16px;">
+        <div style="text-align: center;">
           <Page :total="200" size="small"/>
         </div>
       </i-col>
