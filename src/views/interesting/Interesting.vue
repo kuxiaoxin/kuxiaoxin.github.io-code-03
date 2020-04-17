@@ -48,6 +48,9 @@
             <article-card :key="i" style="margin-top: 16px;"></article-card>
           </template>
         </div>
+        <div style="text-align: center;margin-top: 16px;">
+          <Page :total="200" size="small" />
+        </div>
       </i-col>
       <i-col span="6">
         <div>
