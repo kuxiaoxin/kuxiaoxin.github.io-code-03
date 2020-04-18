@@ -202,16 +202,6 @@
     background: #333;
   }
 
-  .bottom-friend-box {
-    flex-grow: 1;
-    flex-shrink: 0;
-  }
-
-  .bottom-contact-box {
-    flex-grow: 0;
-    flex-shrink: 0;
-  }
-
   .bottom-col-item {
     margin-bottom: 8px;
     color: #fff;
