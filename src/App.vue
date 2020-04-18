@@ -105,11 +105,11 @@
             name: '锦囊',
             target: '_self'
           },
-          {
-            path: '/trickery',
-            name: '权谋',
-            target: '_self'
-          },
+          // {
+          //   path: '/trickery',
+          //   name: '权谋',
+          //   target: '_self'
+          // },
           {
             // path: '/book',
             path: 'http://www.purepen.com/sgyy/',

@@ -7,7 +7,7 @@ import routerHome from '@/router/router-home/router-home'
 import routerInteresting from '@/router/router-interesting/router-interesting'
 import routerHero from '@/router/router-hero/router-hero'
 import routerThink from '@/router/router-think/router-think'
-import routerTrickery from '@/router/router-trickery/router-trickery'
+// import routerTrickery from '@/router/router-trickery/router-trickery'
 import routerBook from '@/router/router-book/router-book'
 import routerAbout from '@/router/router-about/router-about'
 
@@ -16,7 +16,7 @@ const routes = [
   ...routerInteresting,
   ...routerHero,
   ...routerThink,
-  ...routerTrickery,
+  // ...routerTrickery,
   ...routerBook,
   ...routerAbout
 ]
