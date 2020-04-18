@@ -23,7 +23,7 @@
       <router-view/>
     </div>
     <BackTop></BackTop>
-    <div style="background: #333;margin-top: 64px;position: relative;z-index: 101">
+    <div style="width: 100%;min-width: 1200px;background: #333;margin-top: 64px;position: relative;z-index: 101">
       <div class="bottom-background"></div>
       <div class="bottom-box">
         <Row :gutter="32">
@@ -223,8 +223,9 @@
   }
 
   .bottom-background {
-    height: 30px;
     width: 100%;
+    min-width: 1200px;
+    height: 30px;
     background: url("../src/assets/image/home/bottom-item-min-1.svg") repeat-x center;
     background-size: 30px;
     margin: 0 auto;
