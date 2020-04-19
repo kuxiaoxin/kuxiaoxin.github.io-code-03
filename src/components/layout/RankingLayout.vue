@@ -25,7 +25,7 @@
     },
     methods: {
       onRead(routerName) {
-        this.$router.push({name: routerName})
+        if (routerName) this.$router.push({name: routerName})
       }
     }
   }
