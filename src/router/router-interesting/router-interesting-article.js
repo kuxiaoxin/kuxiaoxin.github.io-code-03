@@ -1,7 +1,7 @@
 const breadcrumbItems = [
   {
     text: '趣谈',
-    to: '#/interesting'
+    to: '/interesting'
   },
   {
     text: '文章',
