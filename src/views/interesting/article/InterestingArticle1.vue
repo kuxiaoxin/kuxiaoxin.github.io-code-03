@@ -1,8 +1,6 @@
 <template>
   <article-layout def>
-    <div>
-      Hello
-    </div>
+    <div>Hello</div>
   </article-layout>
 </template>
 
@@ -13,15 +11,9 @@
     name: "InterestingArticle1",
     components: {
       ArticleLayout
-    },
-    data() {
-      return {
-
-      }
     }
   }
 </script>
 
 <style scoped>
-
 </style>

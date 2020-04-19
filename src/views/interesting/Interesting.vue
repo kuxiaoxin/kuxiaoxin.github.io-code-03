@@ -1,5 +1,5 @@
 <template>
-  <article-layout>
+  <page-layout>
     <div>
       <region-bar title="筛选条件"></region-bar>
       <div class="search-item">
@@ -60,11 +60,11 @@
     <div slot="right-bottom">
       <recommend-layout :recommendList="recommendList"></recommend-layout>
     </div>
-  </article-layout>
+  </page-layout>
 </template>
 
 <script>
-  import ArticleLayout from "@/components/layout/ArticleLayout"
+  import PageLayout from "@/components/layout/PageLayout"
   import RankingLayout from "@/components/layout/RankingLayout"
   import RecommendLayout from "@/components/layout/RecommendLayout"
   import RegionBar from "@/components/RegionBar"
@@ -73,7 +73,7 @@
   export default {
     name: "Interesting",
     components: {
-      ArticleLayout,
+      PageLayout,
       RankingLayout,
       RecommendLayout,
       RegionBar,
