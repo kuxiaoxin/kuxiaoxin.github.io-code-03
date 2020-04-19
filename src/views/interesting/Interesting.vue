@@ -24,20 +24,21 @@
           <div class="search-title">所属势力：</div>
           <div class="search-body">
             <Tag style="font-size: 16px;" checkable color="primary">不限</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">东汉</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">魏</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">蜀</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">吴</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">袁术</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">袁绍</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">刘表</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">起义军</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">董卓</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">刘璋</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">西晋</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">少数民族</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">在野</Tag>
-            <Tag style="font-size: 16px;" checkable :checked="false" color="primary">其他</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">东汉</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">东汉</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">魏</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">蜀</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">吴</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">袁术</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">袁绍</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">刘表</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">起义军</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">董卓</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">刘璋</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">西晋</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">少数民族</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">在野</Tag>
+            <Tag style="font-size: 16px;" checkable color="primary" :checked="false">其他</Tag>
           </div>
         </div>
       </div>
