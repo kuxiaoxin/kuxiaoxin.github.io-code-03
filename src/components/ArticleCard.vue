@@ -55,12 +55,12 @@
       },
       routerName: {
         type: String,
-        default: '/'
+        default: ''
       }
     },
     methods: {
       onReadArticle() {
-        this.$router.push({name: this.routerName})
+        if (this.routerName) this.$router.push({name: this.routerName})
       }
     }
   }

@@ -43,12 +43,14 @@
         </div>
       </div>
       <div style="padding-top: 16px;">
-        <template v-for="i in 10">
-          <div :key="i">
-            <article-card></article-card>
-            <Divider/>
-          </div>
-        </template>
+        <div v-for="(item, index) in articleList" :key="index">
+          <article-card :title="item.title"
+                        :image="item.image"
+                        :time="item.time"
+                        :heat="item.heat"
+                        :routerName="item.routerName"></article-card>
+          <Divider/>
+        </div>
       </div>
       <div style="text-align: center;">
         <Page :total="200" size="small"/>
@@ -81,6 +83,20 @@
     },
     data() {
       return {
+        articleList: [
+          {
+            title: '刘禅追谥尚欠赵云一个正点',
+            image: 'http://www.e3ol.com/biography/pic/id/240/19.jpg',
+            time: '2020-04-01',
+            heat: '1.2k',
+            describe: '君主时代帝王死后，会依据他生前的所作所为给他一个定性类的称号，' +
+              '对于一些重要的大臣来说，也会得到这样的待遇，称之为谥号。这是一种盖棺论' +
+              '定，尤其对于大臣，能获得谥号表明位高权重或者是功劳大，所以，这是一种身' +
+              '后的荣耀。蜀汉国实际建国时间相对较晚还短，获得谥号的大臣只有六人，后来' +
+              '刘禅又追谥了几人，前后总共不过十几个人。赵云就是这几个被追谥的大臣之一。',
+            routerName: 'InterestingArticle1'
+          }
+        ],
         recommendList: [
           {
             image: 'http://www.e3ol.com/topics/upfiles/2017/201781910928236.jpg',
