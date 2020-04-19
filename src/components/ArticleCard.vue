@@ -52,10 +52,15 @@
           '定，尤其对于大臣，能获得谥号表明位高权重或者是功劳大，所以，这是一种身' +
           '后的荣耀。蜀汉国实际建国时间相对较晚还短，获得谥号的大臣只有六人，后来' +
           '刘禅又追谥了几人，前后总共不过十几个人。赵云就是这几个被追谥的大臣之一。'
+      },
+      routerName: {
+        type: String,
+        default: '/'
       }
     },
     methods: {
       onReadArticle() {
+        this.$router.push({name: this.routerName})
       }
     }
   }
