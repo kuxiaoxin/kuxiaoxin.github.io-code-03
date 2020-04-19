@@ -1,6 +1,10 @@
 <template>
   <article-layout def>
     <div>
+      <div style="color: #808695;font-size: smaller;padding: 10px 0">
+        原文地址：
+        <a :href="linkSrc" target="_blank">{{linkSrc}}</a>
+      </div>
       <div class="p-div">
         君主时代帝王死后，会依据他生前的所作所为给他一个定性类的称号，对于一些重要的大臣来说，也会得到这样的待遇，称之为谥号。这是一种盖棺论定，尤其对于大臣，能获得谥号表明位高权重或者是功劳大，所以，这是一种身后的荣耀。蜀汉国实际建国时间相对较晚还短，获得谥号的大臣只有六人，后来刘禅又追谥了几人，前后总共不过十几个人。赵云就是这几个被追谥的大臣之一。
       </div>
@@ -39,6 +43,11 @@
     name: "InterestingArticle1",
     components: {
       ArticleLayout
+    },
+    data() {
+      return {
+        linkSrc: 'http://www.e3ol.com/culture/html/2016-10/25941/25941_20161028.shtml'
+      }
     }
   }
 </script>
