@@ -10,7 +10,7 @@
           <div class="p-div">{{item.content}}</div>
         </template>
         <template v-else-if="item.type==='image'">
-          <div style="margin: 16px;">
+          <div style="margin: 10px;text-align: center">
             <img style="max-width: 100%" :src="item.content" alt="">
           </div>
         </template>

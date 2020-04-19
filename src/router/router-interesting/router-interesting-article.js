@@ -15,5 +15,11 @@ export default [
     name: 'InterestingArticle1',
     meta: {breadcrumbItems},
     component: () => import('../../views/interesting/article/InterestingArticle1.vue')
+  },
+  {
+    path: '/interesting/2',
+    name: 'InterestingArticle2',
+    meta: {breadcrumbItems},
+    component: () => import('../../views/interesting/article/InterestingArticle2.vue')
   }
 ]
