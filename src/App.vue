@@ -96,13 +96,13 @@
             target: '_self'
           },
           {
-            path: '/hero',
-            name: '论英雄',
+            path: '/think',
+            name: '锦囊',
             target: '_self'
           },
           {
-            path: '/think',
-            name: '锦囊',
+            path: '/hero',
+            name: '论英雄',
             target: '_self'
           },
           // {
