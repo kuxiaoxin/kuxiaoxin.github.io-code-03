@@ -1,4 +1,4 @@
-// import dpcOtherTrouble from './router-dpc-trouble-manage'
+import interestingArticle from './router-interesting-article'
 
 export default [
   {
@@ -6,10 +6,6 @@ export default [
     name: 'Interesting',
     meta: {
       breadcrumbItems: [
-        // {
-        //   text: '趣谈',
-        //   to: '#/interesting'
-        // },
         {
           text: '趣谈',
           active: true
@@ -17,5 +13,6 @@ export default [
       ]
     },
     component: () => import('../../views/interesting/Interesting.vue')
-  }
+  },
+  ...interestingArticle
 ]
