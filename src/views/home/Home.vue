@@ -4,12 +4,12 @@
       <img class="top-image" src="../../assets/image/home/nav-background.jpg" alt="首页图片">
       <div class="top-image-mask"></div>
       <div class="poetry-box wow slideInUp" data-wow-duration="1s">
-        <h2>《临江仙》</h2>
-        <i class="poetry-box-i"></i>
-        <h3>滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。</h3>
-        <h3>青山依旧在，几度夕阳红。</h3>
-        <h3>白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。</h3>
-        <h3>古今多少事，都付笑谈中。</h3>
+          <h2>《临江仙》</h2>
+          <i class="poetry-box-i"></i>
+          <h3>滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。</h3>
+          <h3>青山依旧在，几度夕阳红。</h3>
+          <h3>白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。</h3>
+          <h3>古今多少事，都付笑谈中。</h3>
       </div>
     </div>
     <title-bar title="最近文章">
@@ -56,7 +56,7 @@
 <script>
   import SpecialCard from "@/components/SpecialCard"
   import TitleBar from "@/components/TitleBar"
-  import { WOW } from "wowjs";
+  import { WOW } from "wowjs"
 
   export default {
     name: 'Home',
@@ -102,8 +102,9 @@
     position: absolute;
     color: #fff;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
     text-align: center;
     margin-bottom: 240px;
   }
