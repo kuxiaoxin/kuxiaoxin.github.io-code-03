@@ -23,7 +23,7 @@
   import ArticleLayout from "@/components/layout/ArticleLayout"
 
   export default {
-    name: "InterestingArticle1",
+    name: "InterestingArticle2",
     components: {
       ArticleLayout
     },
