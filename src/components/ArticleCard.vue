@@ -80,6 +80,7 @@
 
   .text-box {
     height: 180px;
+    width: 100%;
     display: inline-block;
     position: relative;
   }

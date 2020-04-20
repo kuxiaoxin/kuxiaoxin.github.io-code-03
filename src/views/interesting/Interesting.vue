@@ -143,6 +143,17 @@
             heat: '1.2k',
             describe: '假如七星续命灯不灭北伐成功，诸葛亮会称帝吗？',
             routerName: 'InterestingArticle6'
+          },
+          {
+            title: '历数三国时期的少数民族',
+            image: 'http://www.lishichunqiu.com/zt/sgssmz/sgssmz.jpg',
+            time: '2020-04-01',
+            heat: '1.2k',
+            describe: '三国乱世，天下纷争!汉失其鹿，英雄竞折!连化外蛮夷，也想分一杯' +
+              '羹。成为乱世中另类的风景。自高主刘邦立汉，异族侵略一直是朝廷是心腹大患' +
+              '。东汉末年，虽有黄巾作乱，而当权者恐怕更担心蛮族入寇中原。丁原、董卓、' +
+              '马腾、公孙赞无不因为对异族作战获胜而扬名立万。',
+            routerName: 'InterestingArticle7'
           }
         ],
         recommendList: [
