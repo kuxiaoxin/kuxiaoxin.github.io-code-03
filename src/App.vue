@@ -54,7 +54,7 @@
                 <h2 style="margin-bottom: 16px;">联系我们</h2>
                 <div>
                   <Icon type="md-mail"/>
-                  <span style="margin-left: 4px">1302139012@qq.com</span>
+                  <span style="margin-left: 4px">fidel-yiu@qq.com</span>
                 </div>
                 <a class="bottom-col-item" href="https://github.com/kuxiaoxin/kuxiaoxin.github.io-code-03"
                    target="_blank">
