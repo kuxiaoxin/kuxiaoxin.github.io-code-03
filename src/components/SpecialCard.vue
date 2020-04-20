@@ -1,5 +1,5 @@
 <template>
-  <div class="card-box">
+  <div class="card-box" @click="onReadArticle">
     <div class="card-type">{{type}}</div>
     <div class="card-image-box">
       <img class="card-image" :src="image" alt="图片">
@@ -43,6 +43,15 @@
           '描述描述描述描述描述描述描述' +
           '描述描述描述描述描述描述描述' +
           '描述描述描述描述描述描述'
+      },
+      routerName: {
+        type: String,
+        default: ''
+      }
+    },
+    methods: {
+      onReadArticle() {
+        if (this.routerName) this.$router.push({name: this.routerName})
       }
     }
   }
