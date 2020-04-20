@@ -1,3 +1,5 @@
+let interestingArticleNumber = 7
+
 const breadcrumbItems = [
   {
     text: '趣谈',
@@ -9,47 +11,15 @@ const breadcrumbItems = [
   }
 ]
 
-export default [
-  {
-    path: '/interesting/1',
-    name: 'InterestingArticle1',
+let interestingArticleArr = []
+
+for (let i = 1; i <= interestingArticleNumber; i++) {
+  interestingArticleArr.push({
+    path: `/interesting/${i}`,
+    name: `InterestingArticle${i}`,
     meta: {breadcrumbItems},
-    component: () => import('../../views/interesting/article/InterestingArticle1.vue')
-  },
-  {
-    path: '/interesting/2',
-    name: 'InterestingArticle2',
-    meta: {breadcrumbItems},
-    component: () => import('../../views/interesting/article/InterestingArticle2.vue')
-  },
-  {
-    path: '/interesting/3',
-    name: 'InterestingArticle3',
-    meta: {breadcrumbItems},
-    component: () => import('../../views/interesting/article/InterestingArticle3.vue')
-  },
-  {
-    path: '/interesting/4',
-    name: 'InterestingArticle4',
-    meta: {breadcrumbItems},
-    component: () => import('../../views/interesting/article/InterestingArticle4.vue')
-  },
-  {
-    path: '/interesting/5',
-    name: 'InterestingArticle5',
-    meta: {breadcrumbItems},
-    component: () => import('../../views/interesting/article/InterestingArticle5.vue')
-  },
-  {
-    path: '/interesting/6',
-    name: 'InterestingArticle6',
-    meta: {breadcrumbItems},
-    component: () => import('../../views/interesting/article/InterestingArticle6.vue')
-  },
-  {
-    path: '/interesting/7',
-    name: 'InterestingArticle7',
-    meta: {breadcrumbItems},
-    component: () => import('../../views/interesting/article/InterestingArticle7.vue')
-  }
-]
+    component: () => import(`../../views/interesting/article/InterestingArticle${i}.vue`)
+  })
+}
+
+export default interestingArticleArr
