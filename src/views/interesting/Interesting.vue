@@ -47,6 +47,7 @@
                       :image="item.image"
                       :time="item.time"
                       :heat="item.heat"
+                      :describe="item.describe"
                       :routerName="item.routerName"></article-card>
         <Divider/>
       </div>
@@ -105,6 +106,43 @@
               '隐于野，中隐隐于市，大隐隐于朝。”把“隐”的最高境界定位于隐身朝廷之中，由此' +
               '也能看出隐文化的入世态度。',
             routerName: 'InterestingArticle2'
+          },
+          {
+            title: '三国真正的铁甲雄兵之一：西凉铁骑究竟有多少人？',
+            image: 'http://www.e3ol.com/culture/upfiles/2018/201812292371518916.jpeg',
+            time: '2020-04-01',
+            heat: '1.2k',
+            describe: '三国混乱战局中，出现过两支精锐骑兵，前面我们介绍过曹氏将领' +
+              '率领的虎豹骑，今天来聊一聊西凉铁骑。',
+            routerName: 'InterestingArticle3'
+          },
+          {
+            title: '从威震华夏到败走麦城只需6个月，关羽失荆州不只是因为大意',
+            image: 'http://www.e3ol.com/biography/pic/id/240/48.jpg',
+            time: '2020-04-01',
+            heat: '1.2k',
+            describe: '东汉末年分三国 烽火连天不休，JJ的歌词中刻画了一个群雄逐鹿的时' +
+              '代，这个时代里有波云诡谲的权谋游戏，有风林火山的战争法则。每一幕的历史大' +
+              '剧都有不同的主演，有些是智计百出的帝王之师，有些则是杀伐决断的千古名将。',
+            routerName: 'InterestingArticle4'
+          },
+          {
+            title: '关羽在西游世界：堂堂伏魔大帝，为何在天庭看大门？',
+            image: 'http://www.e3ol.com/culture/upfiles/2018/2018122922551679858.jpg',
+            time: '2020-04-01',
+            heat: '1.2k',
+            describe: '在《西游记》中，关羽有登场。原著第16回写到观音禅院故事时道：好行者，一筋斗跳上南天门里，' +
+              '唬得个庞刘苟毕躬身，马赵温关控背，俱道：“不好了，不好了！那闹天宫的主' +
+              '子又来了！”',
+            routerName: 'InterestingArticle5'
+          },
+          {
+            title: '假如七星续命灯不灭北伐成功，诸葛亮会称帝吗？',
+            image: 'http://www.e3ol.com/biography/pic/id/240/284.jpg',
+            time: '2020-04-01',
+            heat: '1.2k',
+            describe: '假如七星续命灯不灭北伐成功，诸葛亮会称帝吗？',
+            routerName: 'InterestingArticle6'
           }
         ],
         recommendList: [

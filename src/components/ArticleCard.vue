@@ -2,7 +2,7 @@
   <!--http://www.e3ol.com/culture/html/2016-10/25941/25941_20161028.shtml-->
   <div style="display: flex">
     <div class="image-box">
-      <img style="width: 100%;" :src="image" alt="">
+      <img style="width: 100%;min-height: 100%;" :src="image" alt="">
     </div>
     <div class="text-box">
       <h2>{{title}}</h2>
